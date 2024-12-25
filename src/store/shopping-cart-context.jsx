@@ -4,8 +4,8 @@ const CartContext = createContext({
   items: {},
   allPrice: 0,
   addItemToCart: () => {},
-  increamentItemCount: () => {},
-  decreamentItemCount: () => {},
+  incrementItemCount: () => {},
+  decrementItemCount: () => {},
 });
 
 export default CartContext;

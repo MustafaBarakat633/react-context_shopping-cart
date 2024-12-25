@@ -39,14 +39,14 @@ const Modal = forwardRef(function Modal(_, ref) {
               <div>
                 <button
                   className="hover:bg-yellow-400 px-2 rounded"
-                  onClick={() => cartCtx.decreamentItemCount(item)}
+                  onClick={() => cartCtx.decrementItemCount(item)}
                 >
                   -
                 </button>
                 <span className="px-2">{cartCtx.items[item].count}</span>
                 <button
                   className="hover:bg-yellow-400 px-2 rounded"
-                  onClick={() => cartCtx.increamentItemCount(item)}
+                  onClick={() => cartCtx.incrementItemCount(item)}
                 >
                   +
                 </button>
